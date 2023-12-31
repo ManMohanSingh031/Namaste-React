@@ -1,0 +1,43 @@
+ ● What is Emmet? 
+Emmet is a plugin for text editors that allows for faster and more efficient HTML and CSS coding. 
+It provides shortcuts and abbreviations to generate code snippets quickly.
+
+
+● Difference between a Library and Framework?
+The main difference between a library and a framework is the control flow. 
+ In Simple "Inversion of Control" .
+In a library, the developer has control over the flow of the program and can choose which functions to use. 
+In contrast, a framework provides a pre-defined structure and controls the flow of the program, requiring the developer to follow its conventions.
+
+
+● What is CDN? Why do we use it? 
+CDN stands for Content Delivery Network. It is a network of servers distributed geographically that deliver web content to users based on their location. 
+CDNs are used to improve website performance by reducing latency and bandwidth usage.
+
+
+● Why is React known as React? 
+React is known as React because it focuses on the concept of reactive UI components. 
+It allows developers to build reusable UI components that update automatically when the underlying data changes.
+
+
+● What is crossorigin in script tag?
+The crossorigin attribute in the script tag is used to specify whether the browser should make a cross-origin request when fetching the script file. 
+It is used when loading scripts from a different domain or subdomain.
+
+
+● What is diference between React and ReactDOM 
+React is a JavaScript library for building user interfaces, while ReactDOM is a package that provides DOM-specific methods for React. 
+ReactDOM is responsible for rendering React components into the DOM.
+
+
+● What is difference between react.development.js and react.production.js files via CDN? 
+The difference between react.development.js and react.production.js files via 
+CDN is that the development version includes additional warnings and debugging information, making it larger in size. 
+The production version is optimized for performance and is smaller in size.
+
+
+● What is async and defer?
+The async attribute in the script tag is used to load the script asynchronously, 
+allowing the HTML parsing and rendering to continue without waiting for the script to be fetched and executed. 
+The defer attribute also loads the script asynchronously, but it ensures that the script is executed in the order they appear in the HTML document.
+

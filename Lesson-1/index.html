@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAMASTE REACT</title>
+    <style>
+      .greeting {
+        color: red;
+      }
+      .hello {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello I'm HTML !</h1>
+    <div id="root">
+      <!-- This element's contents will be replaced with your React component. -->
+    </div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- Hamesa react ke script ke last me likhna hai code ko.  -->
+    <script>
+      const rootElement = document.getElementById("root");
+      const element = React.createElement(
+        "h1",
+        {
+          className: "greeting",
+        },
+        "Hello, I am React!"
+      );
+
+      // ReactDOM.render(element, rootElement);
+
+      const heading = React.createElement(
+        "h3",
+        {
+          className: "hello",
+        },
+        "Hello This is First React App"
+      );
+
+      const container = React.createElement(
+        "div",
+        {
+          id: "container",
+        }, [element, heading]
+          );
+          
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(container);
+    </script>
+  </body>
+</html>
