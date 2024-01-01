@@ -1,0 +1,8 @@
+React Component ==> 2 types
+1. Functional Component
+Name of Component start with capital letter ==> { Header, Footer}
+
+
+
+2. Class based Component
+
